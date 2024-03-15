@@ -30,8 +30,8 @@ void freeList(struct Node** head_ref) {
 
   while (current != NULL) {
     next = current->next;
-    //free(current->data);
-    //free(current);
+    free(current->data);
+    free(current);
     current = next;
   }
 
