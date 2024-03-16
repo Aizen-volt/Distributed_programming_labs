@@ -1,0 +1,1 @@
+int NWD(int a, int b);
